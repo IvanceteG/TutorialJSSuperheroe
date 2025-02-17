@@ -1,0 +1,39 @@
+body{
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contenedor{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 50px;
+}
+.tarjeta{
+    border: 1px solid grey;
+    background-color: aliceblue;
+    width: 150px;
+    height: 200px;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
